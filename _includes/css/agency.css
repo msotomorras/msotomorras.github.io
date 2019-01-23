@@ -408,8 +408,7 @@ section h3.section-subheading {
     padding: 25px;
     max-width: 100%;
     text-align: center;
-    background-color: #fff;
-    opacity: 0;
+    background-color: #{{ site.data.template.color.secondary-dark }}
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
