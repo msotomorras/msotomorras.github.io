@@ -24,6 +24,16 @@
                     </div>
                 </div>
             {% endfor %}
+
+            {% for img in site.img.portfolio %}
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <img src="img/portfolio/{{ img }}" class="img-responsive img-centered" alt="">
+                    <div class="portfolio-caption">
+                        <h4>TEST IMAGE</h4>
+                        <p class="text-muted">Test image</p>
+                    </div>
+                </div>
+            {% endfor %}
             </div>
         </div>
     </section>
