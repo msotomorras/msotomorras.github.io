@@ -409,6 +409,7 @@ section h3.section-subheading {
     max-width: 100%;
     text-align: center;
     background-color: #fff;
+    opacity: 0;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
