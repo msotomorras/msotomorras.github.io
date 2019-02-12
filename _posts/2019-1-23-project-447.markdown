@@ -1,0 +1,9 @@
+---
+title:1
+subtitle:2019-1-23
+layout: default
+modal-id: 6
+date:2019-1-23
+thumbnail:20201520.png
+thumbnail:20201520.png
+alt: image-alt---
