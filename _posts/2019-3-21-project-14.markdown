@@ -1,0 +1,10 @@
+---
+title: Pokemon
+subtitle: Chicago, 2019-3-21
+layout: default
+modal-id: 14
+date: 2019-3-21
+img: 10101710.png
+thumbnail: 10101710.png
+alt: image-alt
+---
