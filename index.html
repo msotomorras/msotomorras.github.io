@@ -9,14 +9,37 @@
 <body style='margin : 0px; overflow: hidden;'>
   <a-scene embedded arjs>
     <a-marker type="pattern" preset="custom" url="patts/pattern-letterA.patt">
-      <a-entity geometry="box" ></a-entity>
+      <a-entity geometry="primitive: torusKnot; p: 1; q:2"></a-entity>
     </a-marker>
     <a-marker type="pattern" preset="custom" url="patts/pattern-letterB.patt">
-      <a-entity geometry="primitive: plane"
-          material="shader: ocean; color: blue; wave-height: 10"></a-entity>
+      <a-entity geometry="primitive: torusKnot; p: 1; q:2"></a-entity>
     </a-marker>
     <a-entity camera></a-entity>
   </a-scene>
 </body>
 
 </html>
+
+<!-- <html>
+
+<head>
+  <script src="vendor/artoolkit.min.js"></script>
+  <script src="vendor/three.min.js"></script>
+  <script src="vendor/artoolkit.three.js"></script>
+  <script src="ar-gif.min.js" defer></script>
+</head>
+
+<body style="overflow: hidden; margin:0;">
+  <ar-scene>
+    <ar-marker patt="patts/pattern-hiro.patt" content="gifs/temaki.gif"></ar-marker>
+    <ar-marker patt="patts/pattern-letterC.patt">
+      <ar-content src="gifs/peixe.gif" scale="1.5 1.5" position="0 0 0" rotation="0 0 0">
+      </ar-content>
+    </ar-marker>
+    <a-marker type="pattern" preset="custom" url="patts/pattern-letterA.patt">
+      <a-box position='0 0.5 0' material='color: yellow;'></a-box>
+    </a-marker>
+    <ar-marker mult patterns="" content="gifs/multi.gif"></ar-marker>
+
+</body>
+</html> -->
