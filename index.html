@@ -1,11 +1,18 @@
 <html>
-<script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
-<script src="https://raw.githack.com/jeromeetienne/AR.js/2.1.4/aframe/build/aframe-ar.js"></script>
+
+<head>
+  <script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
+  <script src="https://raw.githack.com/jeromeetienne/AR.js/2.1.4/aframe/build/aframe-ar.js"></script>
+
+</head>
 
 <body style='margin : 0px; overflow: hidden;'>
   <a-scene embedded arjs>
     <a-marker type="pattern" preset="custom" url="patts/pattern-letterA.patt">
-      <a-box position='0 0.5 0' material='color: yellow;'></a-box>
+      <a-entity geometry="primitive: torusKnot; p: 3; q:7"></a-entity>
+    </a-marker>
+    <a-marker type="pattern" preset="custom" url="patts/pattern-letterB.patt">
+      <a-entity geometry="primitive: torus; radius: 2; radiusTubular: 0.5; arc: 180"></a-entity>
     </a-marker>
     <a-entity camera></a-entity>
   </a-scene>
